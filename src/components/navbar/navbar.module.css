@@ -1,0 +1,101 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    max-width: 980px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid rgb(151, 154, 164);
+}
+
+.logo_font {
+    display: flex;
+}
+
+.font_bold {
+    font-size: 36px;
+    font-family: "Roboto";
+    color: rgb(82, 84, 89);
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+
+.font {
+    font-size: 36px;
+    font-family: "Roboto";
+    color: rgb(82, 84, 89);
+    line-height: 1.2;
+    font-weight: 200;
+
+}
+
+.contants {
+    display: flex;
+    gap: 40px;
+}
+
+.logo_tel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_tel a {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(82, 84, 89);
+    text-transform: uppercase;
+    line-height: 1.778;
+}
+
+.btn {
+    font-family: 'Roboto';
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(151, 154, 164);
+    width: 171px;
+    height: 46px;
+    font-size: 16px;
+    color: rgb(173, 0, 62);
+    font-weight: bold;
+    line-height: 1.2;
+    border-radius: 25px;
+    background-color: rgba(52, 54, 54, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #F0F0F0;
+    ;
+
+    transition: 0.3s;
+}
+
+.nav_menu {
+    display: flex;
+    max-width: 980px;
+    width: 100%;
+    justify-items: flex-start;
+    padding-top: 30px;
+    gap: 50px;
+    padding-bottom: 10px;
+}
+
+.menu_item {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(82, 84, 89);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: bold;
+}

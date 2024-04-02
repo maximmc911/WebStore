@@ -1,0 +1,41 @@
+main {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.content {
+    width: 450px;
+}
+
+.content h3 {
+    font-size: 35px;
+    color: rgb(61, 62, 66);
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 85px;
+
+}
+.content p {
+    font-size: 18px;
+    color: rgb(72, 73, 78);
+    line-height: 1.882;
+    text-align: left;
+    padding-bottom: 55px;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.notebook {
+    display: flex;
+    align-items: center;
+}
+
+.imgPencil {
+    height: 400px;
+}
+
+
+
