@@ -29,7 +29,7 @@ const Footer = () => {
                         <div className={s.email}>
 
                             <p>E-mail:</p>
-                            <a href="tel:+79050000000">info@nologostudio.ru</a>
+                            <a href="mailo:info@nologostudio.ru">info@nologostudio.ru</a>
                         </div>
                         <div className={s.skype}>
 
